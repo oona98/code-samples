@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/boat1.png</file>
+        <file>images/boat2.png</file>
+        <file>images/farm1.png</file>
+        <file>images/farm2.png</file>
+        <file>images/hq1.png</file>
+        <file>images/hq2.png</file>
+        <file>images/mine1.png</file>
+        <file>images/mine2.png</file>
+        <file>images/outpost1.png</file>
+        <file>images/outpost2.png</file>
+        <file>images/miner1.png</file>
+        <file>images/saboteur1.png</file>
+        <file>images/worker1.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GuideDialog</class>
+ <widget class="QDialog" name="GuideDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1138</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Guide</string>
+  </property>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>490</y>
+     <width>84</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HQLabel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>80</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HQ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="outpostLabel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>140</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Outpost</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="farmLabel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>200</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Farm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="boatLabel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>350</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Boat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mineLabel">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>490</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mine</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="textLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>491</width>
+     <height>471</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Guide</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label1">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>80</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Headquarters
+build cost:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label2">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>100</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ore: -1080</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>140</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Outpost build
+cost:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label5">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>200</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Farm build
+cost:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label7">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>350</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Boat:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label9">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>500</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Mine:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>160</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ore: -1020</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label6">
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>220</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Food: -200
+Stone: -200</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label8">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>350</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wood: -600</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label10">
+   <property name="geometry">
+    <rect>
+     <x>720</x>
+     <y>500</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Food: -200
+Wood: -200</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="HQLabel2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>80</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>HQ</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="outpostLabel2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>140</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Outpost</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="farmLabel2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>200</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Farm</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="boatLabel2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>350</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Boat</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mineLabel2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>490</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Mine</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="forestColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>10</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#forestColorLabel {background-color: rgb(118, 173, 124)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cornFieldColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>10</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#cornFieldColorLabel {background-color: rgb(255, 248, 184)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="grasslandColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>10</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#grasslandColorLabel {background-color: rgb(198, 247, 171)}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="rockColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>430</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#rockColorLabel {background-color: rgb(228, 219, 226)}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="waterColorLabel">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>280</y>
+     <width>55</width>
+     <height>55</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel#waterColorLabel {background-color: rgb(191, 255, 252)}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label11">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>10</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>On forest, grassland
+and corn field can
+build:</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>260</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_2">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>410</y>
+     <width>341</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label12">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>270</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>On water can build:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label13">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>430</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>On rock can build:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label14">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>130</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Basic worker:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label15">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>350</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Miner:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label16">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>10</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Saboteur:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BWLabel">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>120</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BW</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minerLabel">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>340</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Miner</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="saboteurLabel">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>0</y>
+     <width>70</width>
+     <height>70</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Saboteur</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label14_2">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>200</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Production on farm:        /on boat:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label16_2">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>70</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Hiring cost:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label16_3">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>90</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Harm cost:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_2">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>70</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Food: -200</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_3">
+   <property name="geometry">
+    <rect>
+     <x>970</x>
+     <y>90</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ore: -200</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line_3">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>110</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_4">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>10</y>
+     <width>16</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="Line" name="line_5">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>330</y>
+     <width>261</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_4">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>220</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Money:      -10                      -40</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_5">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>240</y>
+     <width>351</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Food:         -20                      -30</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_6">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>260</y>
+     <width>321</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wood:       -10                      -10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_7">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>280</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stone:        -10                      -80</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_8">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>300</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ore:           -20                      -10</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label14_3">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>420</y>
+     <width>241</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Production on mine:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_9">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>460</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Food:         -30        </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_10">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>500</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Stone:        -80      </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_11">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>520</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ore:           -40  </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_12">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>480</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wood:       -10                 </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label4_13">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>440</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Money:      -40          </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
